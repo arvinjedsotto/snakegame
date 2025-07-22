@@ -111,7 +111,7 @@ function gameOver() {
     highScoreDisplay.textContent = `High Score: ${highScore}`;
   }
   restartBtn.style.display = "inline-block";
-  alert('Ah! Bobo mete ka!');
+  alert('Ah! Bobo! Mete ka!');
 }
 
 document.addEventListener('keydown', e => {
