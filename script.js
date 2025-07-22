@@ -33,7 +33,7 @@ function startGame() {
   snake = [2, 1, 0];
   direction = 1;
   score = 0;
-  intervalTime = 200;
+  intervalTime = 70;
   scoreDisplay.textContent = `Score: ${score}`;
   highScoreDisplay.textContent = `High Score: ${highScore}`;
   restartBtn.style.display = "none";
